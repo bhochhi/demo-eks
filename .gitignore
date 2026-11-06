@@ -1,0 +1,16 @@
+# Terraform state & caches
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
